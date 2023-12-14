@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/images/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Quotes Generator</title>
+  </head>
+  <body>
+    <div class="bg vh-100 d-flex justify-content-center align-items-center">
+      <div class="quotes-section w-75 text-center border rounded-3 p-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="quotes-section-title">
+                <h1 class="fw-bold">Quote Of The Day</h1>
+              </div>
+              <div class="col-md-12">
+                <div class="quote-body mb-3 mt-3">
+                  <p id="quote" class="quote">
+                    "We become what we think about."
+                  </p>
+                  <div id="author-name" class="author-name">
+                    -Earl Nightingale
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="button-container">
+                  <div class="btn custom-btn text-light" onclick="generateQuote()">
+                    New Quote
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

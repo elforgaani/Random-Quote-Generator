@@ -1,0 +1,9 @@
+@media screen and (max-waidth:600px) {
+.author-name{
+    font-size: 0.5rem;
+    
+}
+.quote{
+    font-size: 4rem;
+}
+}

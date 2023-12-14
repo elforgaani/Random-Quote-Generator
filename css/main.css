@@ -1,0 +1,38 @@
+.bg {
+  background-color: #d9afd9;
+  background: linear-gradient(90deg, #d9afd9 0%, #97d9e1 100%);
+}
+:root {
+  --title-font: 'Great Vibes', cursive;;
+  --font-secondary :'Montserrat', sans-serif;
+}
+
+
+.quotes-section {
+  background-color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  z-index: 2;
+}
+
+.quotes-section-title h1 {
+  font-family: var(--title-font);
+  font-weight: 700;
+  color: #333333;
+  font-size: 3rem !important;
+}
+
+.custom-btn {
+  background: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+}
+ .quote {
+  font-size: 1.5rem;
+  font-family: var(--font-secondary);
+  color: #555252;
+}
+
+.author-name{
+  font-size: 1rem;
+  color: #555252;
+  font-family: var(--font-secondary);
+
+}
